@@ -2,7 +2,7 @@ import React, { FC, useMemo } from 'react';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import rehypeRaw from 'rehype-raw';
-import { MessageMarkdownMemoized } from './message-markdown-memoized.js';
+import { MessageMarkdownMemoized } from './message-markdown-memoized';
 import { Components } from 'react-markdown';
 interface MessageMarkdownProps {
   content: string;

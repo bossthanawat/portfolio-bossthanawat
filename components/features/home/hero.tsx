@@ -5,7 +5,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <>
-      <div className="relative text-slate-900 mt-28 container">
+      <div className="relative text-slate-900 mt-6 container">
         <div className="flex justify-between">
           <div>
             <div className="flex items-center gap-4">
