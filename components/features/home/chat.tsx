@@ -133,7 +133,7 @@ const Chat = () => {
               onChange={setInput}
               onSearch={(input) => handleSendMessage(input)}
               isLoading={status === 'submitted' || status === 'streaming'}
-              placeholder="Type something..."
+              placeholder="Please ask me something. (づ ◕‿◕ )づ"
             ></MessageInput>
           </div>
         </div>
